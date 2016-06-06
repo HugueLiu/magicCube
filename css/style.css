@@ -1,0 +1,22 @@
+html{
+    background: -webkit-radial-gradient(center, ellipse, #430d6d 0%, #000000 100%);  
+    background: radial-gradient(ellipse at center, #430d6d 0%, #000000 100%);  
+    height: 100%; 
+}
+.MC{
+	width: 200px;
+	height: 200px;
+	margin: 200px auto;
+	position: relative;
+	perspective-origin : 200% 200%;
+      /*transform-style: preserve-3d; */
+      /*backface-visibility: hidden ;*/
+}
+@keyframes spin{  
+     from{  
+         transform: rotateX(0) rotateY(0deg);  
+     }  
+     to{  
+         transform: rotateX(360deg) rotateY(360deg);  
+     }  
+   }
